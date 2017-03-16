@@ -1,0 +1,2045 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pipe">
+      <UniqueIdentifier>{08EDB58E-8F07-E4B0-2D91-C07C8860878A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pipe\utils">
+      <UniqueIdentifier>{742E9A0E-D1B0-643D-E893-71064FFA2C51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pipe">
+      <UniqueIdentifier>{08EDB58E-8F07-E4B0-2D91-C07C8860878A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pipe\utils">
+      <UniqueIdentifier>{742E9A0E-D1B0-643D-E893-71064FFA2C51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{742E9A0E-D1B0-643D-E893-71064FFA2C51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{742E9A0E-D1B0-643D-E893-71064FFA2C51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\gpu">
+      <UniqueIdentifier>{52E8B949-3E67-CAB7-33D9-3F972FED789B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{742E9A0E-D1B0-643D-E893-71064FFA2C51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils\debugger">
+      <UniqueIdentifier>{50FEAF01-EF8B-0322-F711-085031E1FA3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{742E9A0E-D1B0-643D-E893-71064FFA2C51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils\debugger">
+      <UniqueIdentifier>{50FEAF01-EF8B-0322-F711-085031E1FA3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{742E9A0E-D1B0-643D-E893-71064FFA2C51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils\debugger">
+      <UniqueIdentifier>{50FEAF01-EF8B-0322-F711-085031E1FA3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{742E9A0E-D1B0-643D-E893-71064FFA2C51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils\debugger">
+      <UniqueIdentifier>{50FEAF01-EF8B-0322-F711-085031E1FA3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{742E9A0E-D1B0-643D-E893-71064FFA2C51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils\debugger">
+      <UniqueIdentifier>{50FEAF01-EF8B-0322-F711-085031E1FA3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{742E9A0E-D1B0-643D-E893-71064FFA2C51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils\debugger">
+      <UniqueIdentifier>{50FEAF01-EF8B-0322-F711-085031E1FA3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gyp">
+      <UniqueIdentifier>{30B32512-2E13-32EA-B437-6F75133648E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode">
+      <UniqueIdentifier>{AFE1E144-C431-06D5-D1A6-C5AFB59C013C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samplecode\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm">
+      <UniqueIdentifier>{55E6DDB6-7E66-5A91-122B-06C3BC3C1B95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gm\_excluded_files">
+      <UniqueIdentifier>{158E591E-B6EA-0C85-8F5A-18EAFA09B4CE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\gm\gm.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\samplecode\GMSampleView.h">
+      <Filter>samplecode</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\samplecode\GMSampleView.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\ClockFaceView.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\OverView.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\samplecode\OverView.h">
+      <Filter>samplecode</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\samplecode\Sample2PtRadial.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleAAClip.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleAARects.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleAARectModes.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleAll.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleAnimator.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleAnimBlur.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleApp.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleArc.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleBigBlur.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleBigGradient.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleBitmapRect.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleBlur.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleCamera.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleChart.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleCircle.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleClip.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleClipDrawMatch.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleClock.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\samplecode\SampleCode.h">
+      <Filter>samplecode</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\samplecode\SampleColorFilter.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleComplexClip.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleConcavePaths.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleCull.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleDegenerateTwoPtRadials.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleDither.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleDitherBitmap.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleEffects.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleEmboss.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleEmptyPath.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleFatBits.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleFillType.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleFilter.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleFilter2.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleFilterQuality.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleFilterFuzz.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleFontScalerTest.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleFuzz.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleGradients.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleHairCurves.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleHairline.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleHairModes.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleHT.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleIdentityScale.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleLayerMask.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleLayers.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleLCD.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleLines.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleLua.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleManyRects.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleMeasure.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SamplePatch.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SamplePath.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SamplePathClip.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SamplePathFuzz.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SamplePathEffects.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SamplePicture.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SamplePictFile.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SamplePoints.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SamplePolyToPoly.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleQuadStroker.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleRectanizer.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleRegion.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleRepeatTile.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleShaders.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleShaderText.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleSlides.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleStringArt.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleStrokePath.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleSubpixelTranslate.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleText.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleTextAlpha.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleTextBox.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleTextOnPath.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleTextureDomain.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleTiling.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleTinyBitmap.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleUnpremul.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleVertices.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleXfermodesBlur.cpp">
+      <Filter>samplecode</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\pipe\utils\SamplePipeControllers.h">
+      <Filter>src\pipe\utils</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\pipe\utils\SamplePipeControllers.cpp">
+      <Filter>src\pipe\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utils\SkLuaCanvas.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utils\SkLua.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\aaclip.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\aarectmodes.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\addarc.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\all_bitmap_configs.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\alphagradients.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\anisotropic.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\arcofzorro.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\arithmode.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\astcbitmap.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\badpaint.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\beziereffects.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\beziers.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\bigblurs.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\bigmatrix.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\bigtext.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\bitmapcopy.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\bitmapfilters.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\bitmappremul.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\bitmaprect.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\bitmaprecttest.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\bitmapshader.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\bitmapsource.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\bitmapsource2.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\bleed.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\blend.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\blurcircles.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\blurquickreject.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\blurrect.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\blurroundrect.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\blurs.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\bmpfilterqualityrepeat.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\cgm.c">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\cgms.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\circles.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\circularclips.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\clip_strokerect.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\clipdrawdraw.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\clippedbitmapshaders.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\cmykjpeg.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\colorcube.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\coloremoji.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\colorfilterimagefilter.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\colorfilters.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\colormatrix.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\colortype.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\colortypexfermode.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\colorwheel.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\complexclip.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\complexclip2.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\complexclip3.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\composeshader.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\concavepaths.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\conicpaths.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\constcolorprocessor.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\convex_all_line_paths.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\convexpaths.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\convexpolyclip.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\convexpolyeffect.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\copyTo4444.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\cubicpaths.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\dashcubics.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\dashing.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\dcshader.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\degeneratesegments.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\dftext.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\discard.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\displacement.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\distantclip.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\downsamplebitmap.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\drawbitmaprect.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\drawfilter.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\drawlooper.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\dropshadowimagefilter.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\drrect.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\dstreadshuffle.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\emboss.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\emptypath.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\etc1bitmap.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\extractbitmap.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\factory.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\fadefilter.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\fatpathfill.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\filltypes.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\filltypespersp.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\filterbitmap.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\filterfastbounds.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\filterindiabox.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\fontcache.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\fontmgr.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\fontscaler.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\fontscalerdistortable.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\gammatext.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\getpostextpath.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\giantbitmap.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\glyph_pos.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\glyph_pos_align.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\gradientDirtyLaundry.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\gradient_matrix.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\gradients.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\gradients_2pt_conical.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\gradients_no_texture.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\gradtext.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\grayscalejpg.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\hairlines.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\hairmodes.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\hittestpath.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\image.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\imagealphathreshold.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\imageblur.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\imageblur2.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\imageblurtiled.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\imagefilters.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\imagefiltersbase.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\imagefiltersclipped.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\imagefilterscropexpand.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\imagefilterscropped.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\imagefiltersgraph.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\imagefiltersscaled.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\imagefilterstransformed.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\imagemagnifier.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\imageresizetiled.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\internal_links.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\inversepaths.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\largeglyphblur.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\lcdtext.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\lerpmode.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\lighting.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\linepaths.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\lumafilter.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\matrixconvolution.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\matriximagefilter.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\megalooper.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\mipmap.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\mixedtextblobs.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\mixedxfermodes.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\modecolorfilters.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\morphology.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\multipicturedraw.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\nested.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\ninepatchstretch.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\nonclosedpaths.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\offsetimagefilter.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\ovals.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\patch.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\patchgrid.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\patheffects.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\pathfill.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\pathinterior.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\pathopsinverse.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\pathopsskpclip.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\pathreverse.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\peekpixels.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\perlinnoise.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\picture.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\pictureimagefilter.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\pictureshader.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\pictureshadertile.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\pixelsnap.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\plus.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\points.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\poly2poly.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\polygons.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\quadpaths.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\recordopts.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\rects.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\repeated_bitmap.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\resizeimagefilter.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\roundrects.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\rrect.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\rrects.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\samplerstress.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\selftest.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\shaderbounds.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\shadertext.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\shadertext2.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\shadertext3.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\shadows.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\shallowgradient.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\simpleaaclip.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\skbug1719.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\smallarc.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\smallimage.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\spritebitmap.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\srcmode.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\stlouisarch.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\stringart.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\strokefill.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\strokerect.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\strokerects.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\strokes.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\stroketext.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\surface.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\tablecolorfilter.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\tallstretchedbitmaps.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\testimagefilters.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\texdata.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\textblob.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\textblobcolortrans.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\textblobgeometrychange.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\textbloblooper.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\textblobshader.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\textblobtransforms.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\texteffects.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\texturedomaineffect.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\thinrects.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\thinstrokedrects.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\tiledscaledbitmap.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\tileimagefilter.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\tilemodes.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\tilemodes_scaled.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\tinybitmap.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\transparency.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\typeface.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\variedtext.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\vertices.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\verttext.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\verttext2.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\verylargebitmap.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\xfermodeimagefilter.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\xfermodes.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\xfermodes2.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\xfermodes3.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\yuvtorgbeffect.cpp">
+      <Filter>gm</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\gpu\GrTestBatch.h">
+      <Filter>src\gpu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utils\debugger\SkDrawCommand.h">
+      <Filter>src\utils\debugger</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\utils\debugger\SkDrawCommand.cpp">
+      <Filter>src\utils\debugger</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\utils\debugger\SkDebugCanvas.h">
+      <Filter>src\utils\debugger</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\utils\debugger\SkDebugCanvas.cpp">
+      <Filter>src\utils\debugger</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\utils\debugger\SkObjectParser.h">
+      <Filter>src\utils\debugger</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\utils\debugger\SkObjectParser.cpp">
+      <Filter>src\utils\debugger</Filter>
+    </ClCompile>
+    <None Include="..\..\gyp\SampleApp.gyp">
+      <Filter>gyp</Filter>
+    </None>
+    <ClCompile Include="..\..\samplecode\SampleEncode.cpp">
+      <Filter>samplecode\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleFontCache.cpp">
+      <Filter>samplecode\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\samplecode\SampleSkLayer.cpp">
+      <Filter>samplecode\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\system_preferences_default.cpp">
+      <Filter>gm\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\techtalk1.cpp">
+      <Filter>gm\_excluded_files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tools\sk_tool_utils.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\tools\sk_tool_utils_font.cpp">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\fonts\SkTestScalerContext.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\fonts\SkTestScalerContext.h" />
+  </ItemGroup>
+</Project>

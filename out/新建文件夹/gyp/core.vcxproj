@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Developer|Win32">
+      <Configuration>Release_Developer</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2013XpRelease|Win32">
+      <Configuration>vs2013XpRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B7760B5E-BFA8-486B-ACFD-49E3A6DE8E76}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>core</RootNamespace>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Locals">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <ExecutablePath>$(ExecutablePath);$(MSBuildProjectDirectory)\..\..\gyp\bin\;$(MSBuildProjectDirectory)\..\..\gyp\bin\</ExecutablePath>
+    <IntDir>$(Configuration)\obj\$(ProjectName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir>..\..\out\$(Configuration)\</OutDir>
+    <TargetName>skia_core</TargetName>
+    <TargetPath>$(OutDir)\skia_core$(TargetExt)</TargetPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;4244;4267;4390;4554;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)skia_core$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;4244;4267;4390;4554;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)skia_core$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;4244;4267;4390;4554;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)skia_core$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2013XpRelease|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;4244;4267;4390;4554;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)skia_core$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;4244;4267;4390;4554;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)skia_core$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2013XpRelease|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;4244;4267;4390;4554;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)skia_core$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Developer|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;4244;4267;4390;4554;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)skia_core$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;4244;4267;4390;4554;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)skia_core$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2013XpRelease|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;4244;4267;4390;4554;4800;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)skia_core$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\include\ports;..\..\include\utils;..\..\include\images;..\..\src\core;..\..\src\sfnt;..\..\src\image;..\..\src\opts;..\..\src\utils;..\..\gyp\config\win;..\..\include\gpu;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\gyp\core.gypi" />
+    <None Include="..\..\gyp\core.gyp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\c\sk_types_priv.h" />
+    <ClInclude Include="..\..\src\core\SkAdvancedTypefaceMetrics.h" />
+    <ClInclude Include="..\..\src\core\SkAntiRun.h" />
+    <ClInclude Include="..\..\src\core\SkBBoxHierarchy.h" />
+    <ClInclude Include="..\..\src\core\SkBitmapFilter.h" />
+    <ClInclude Include="..\..\src\core\SkBitmapHeap.h" />
+    <ClInclude Include="..\..\src\core\SkBitmapProcShader.h" />
+    <ClInclude Include="..\..\src\core\SkBitmapProcState.h" />
+    <ClInclude Include="..\..\src\core\SkBitmapProcState_matrix.h" />
+    <ClInclude Include="..\..\src\core\SkBitmapProcState_sample.h" />
+    <ClInclude Include="..\..\src\core\SkBitmapScaler.h" />
+    <ClInclude Include="..\..\src\core\SkBlitBWMaskTemplate.h" />
+    <ClInclude Include="..\..\src\core\SkBlitter.h" />
+    <ClInclude Include="..\..\src\core\SkColorShader.h" />
+    <ClInclude Include="..\..\src\core\SkConfig8888.h" />
+    <ClInclude Include="..\..\src\core\SkConvolver.h" />
+    <ClInclude Include="..\..\src\core\SkCoreBlitters.h" />
+    <ClInclude Include="..\..\src\core\SkCubicClipper.h" />
+    <ClInclude Include="..\..\src\core\SkDeviceProperties.h" />
+    <ClInclude Include="..\..\src\core\SkDistanceFieldGen.h" />
+    <ClInclude Include="..\..\src\core\SkDrawProcs.h" />
+    <ClInclude Include="..\..\src\core\SkEdge.h" />
+    <ClInclude Include="..\..\src\core\SkErrorInternals.h" />
+    <ClInclude Include="..\..\src\core\SkFilterProc.h" />
+    <ClInclude Include="..\..\src\core\SkFontDescriptor.h" />
+    <ClInclude Include="..\..\src\core\SkFontStream.h" />
+    <ClInclude Include="..\..\src\core\SkGeometry.h" />
+    <ClInclude Include="..\..\src\core\SkGlyphCache.h" />
+    <ClInclude Include="..\..\src\core\SkGlyphCache_Globals.h" />
+    <ClInclude Include="..\..\src\core\SkHalf.h" />
+    <ClInclude Include="..\..\src\core\SkLayerInfo.h" />
+    <ClInclude Include="..\..\src\core\SkMaskGamma.h" />
+    <ClInclude Include="..\..\src\core\SkMatrixImageFilter.h" />
+    <ClInclude Include="..\..\src\core\SkMessageBus.h" />
+    <ClInclude Include="..\..\src\core\SkPaintPriv.h" />
+    <ClInclude Include="..\..\src\core\SkPictureContentInfo.h" />
+    <ClInclude Include="..\..\src\core\SkPictureData.h" />
+    <ClInclude Include="..\..\src\core\SkPictureFlat.h" />
+    <ClInclude Include="..\..\src\core\SkPicturePlayback.h" />
+    <ClInclude Include="..\..\src\core\SkPictureRecord.h" />
+    <ClInclude Include="..\..\src\core\SkPictureShader.h" />
+    <ClInclude Include="..\..\src\core\SkQuadClipper.h" />
+    <ClInclude Include="..\..\src\core\SkReadBuffer.h" />
+    <ClInclude Include="..\..\src\core\SkReader32.h" />
+    <ClInclude Include="..\..\src\core\SkRegionPriv.h" />
+    <ClInclude Include="..\..\src\core\SkRTree.h" />
+    <ClInclude Include="..\..\src\core\SkScalerContext.h" />
+    <ClInclude Include="..\..\src\core\SkScan.h" />
+    <ClInclude Include="..\..\src\core\SkScanPriv.h" />
+    <ClInclude Include="..\..\src\core\SkSpriteBlitter.h" />
+    <ClInclude Include="..\..\src\core\SkSpriteBlitterTemplate.h" />
+    <ClInclude Include="..\..\src\core\SkStreamPriv.h" />
+    <ClInclude Include="..\..\src\core\SkStroke.h" />
+    <ClInclude Include="..\..\src\core\SkStrokerPriv.h" />
+    <ClInclude Include="..\..\src\core\SkTaskGroup.h" />
+    <ClInclude Include="..\..\src\core\SkTextFormatParams.h" />
+    <ClInclude Include="..\..\src\core\SkTextMapStateProc.h" />
+    <ClInclude Include="..\..\src\core\SkTDPQueue.h" />
+    <ClInclude Include="..\..\src\core\SkTLList.h" />
+    <ClInclude Include="..\..\src\core\SkTraceEvent.h" />
+    <ClInclude Include="..\..\src\core\SkTSort.h" />
+    <ClInclude Include="..\..\src\core\SkTypefaceCache.h" />
+    <ClInclude Include="..\..\src\core\SkYUVPlanesCache.h" />
+    <ClInclude Include="..\..\src\image\SkSurface_Base.h" />
+    <ClInclude Include="..\..\include\core\SkBBHFactory.h" />
+    <ClInclude Include="..\..\include\core\SkBitmap.h" />
+    <ClInclude Include="..\..\include\core\SkBitmapDevice.h" />
+    <ClInclude Include="..\..\include\core\SkBlitRow.h" />
+    <ClInclude Include="..\..\include\core\SkCanvas.h" />
+    <ClInclude Include="..\..\include\core\SkChunkAlloc.h" />
+    <ClInclude Include="..\..\include\core\SkClipStack.h" />
+    <ClInclude Include="..\..\include\core\SkColor.h" />
+    <ClInclude Include="..\..\include\core\SkColorFilter.h" />
+    <ClInclude Include="..\..\include\core\SkColorPriv.h" />
+    <ClInclude Include="..\..\include\core\SkComposeShader.h" />
+    <ClInclude Include="..\..\include\core\SkData.h" />
+    <ClInclude Include="..\..\include\core\SkDeque.h" />
+    <ClInclude Include="..\..\include\core\SkDevice.h" />
+    <ClInclude Include="..\..\include\core\SkDither.h" />
+    <ClInclude Include="..\..\include\core\SkDraw.h" />
+    <ClInclude Include="..\..\include\core\SkDrawable.h" />
+    <ClInclude Include="..\..\include\core\SkDrawFilter.h" />
+    <ClInclude Include="..\..\include\core\SkDrawLooper.h" />
+    <ClInclude Include="..\..\include\core\SkEndian.h" />
+    <ClInclude Include="..\..\include\core\SkError.h" />
+    <ClInclude Include="..\..\include\core\SkFixed.h" />
+    <ClInclude Include="..\..\include\core\SkFlattenable.h" />
+    <ClInclude Include="..\..\include\core\SkFlattenableSerialization.h" />
+    <ClInclude Include="..\..\include\core\SkFloatBits.h" />
+    <ClInclude Include="..\..\include\core\SkFloatingPoint.h" />
+    <ClInclude Include="..\..\include\core\SkFontHost.h" />
+    <ClInclude Include="..\..\include\core\SkFontStyle.h" />
+    <ClInclude Include="..\..\include\core\SkGraphics.h" />
+    <ClInclude Include="..\..\include\core\SkImage.h" />
+    <ClInclude Include="..\..\include\core\SkImageDecoder.h" />
+    <ClInclude Include="..\..\include\core\SkImageEncoder.h" />
+    <ClInclude Include="..\..\include\core\SkImageFilter.h" />
+    <ClInclude Include="..\..\include\core\SkImageInfo.h" />
+    <ClInclude Include="..\..\include\core\SkInstCnt.h" />
+    <ClInclude Include="..\..\include\core\SkMallocPixelRef.h" />
+    <ClInclude Include="..\..\include\core\SkMask.h" />
+    <ClInclude Include="..\..\include\core\SkMaskFilter.h" />
+    <ClInclude Include="..\..\include\core\SkMath.h" />
+    <ClInclude Include="..\..\include\core\SkMatrix.h" />
+    <ClInclude Include="..\..\include\core\SkMetaData.h" />
+    <ClInclude Include="..\..\include\core\SkMultiPictureDraw.h" />
+    <ClInclude Include="..\..\include\core\SkOnce.h" />
+    <ClInclude Include="..\..\include\core\SkOSFile.h" />
+    <ClInclude Include="..\..\include\core\SkPackBits.h" />
+    <ClInclude Include="..\..\include\core\SkPaint.h" />
+    <ClInclude Include="..\..\include\core\SkPath.h" />
+    <ClInclude Include="..\..\include\core\SkPathEffect.h" />
+    <ClInclude Include="..\..\include\core\SkPathMeasure.h" />
+    <ClInclude Include="..\..\include\core\SkPathRef.h" />
+    <ClInclude Include="..\..\include\core\SkPicture.h" />
+    <ClInclude Include="..\..\include\core\SkPictureRecorder.h" />
+    <ClInclude Include="..\..\include\core\SkPixelRef.h" />
+    <ClInclude Include="..\..\include\core\SkPoint.h" />
+    <ClInclude Include="..\..\include\core\SkPreConfig.h" />
+    <ClInclude Include="..\..\include\core\SkRasterizer.h" />
+    <ClInclude Include="..\..\include\core\SkRect.h" />
+    <ClInclude Include="..\..\include\core\SkRefCnt.h" />
+    <ClInclude Include="..\..\include\core\SkRegion.h" />
+    <ClInclude Include="..\..\include\core\SkRRect.h" />
+    <ClInclude Include="..\..\include\core\SkScalar.h" />
+    <ClInclude Include="..\..\include\core\SkShader.h" />
+    <ClInclude Include="..\..\include\core\SkStream.h" />
+    <ClInclude Include="..\..\include\core\SkString.h" />
+    <ClInclude Include="..\..\include\core\SkStrokeRec.h" />
+    <ClInclude Include="..\..\include\core\SkSurface.h" />
+    <ClInclude Include="..\..\include\core\SkTArray.h" />
+    <ClInclude Include="..\..\include\core\SkTDArray.h" />
+    <ClInclude Include="..\..\include\core\SkTDStack.h" />
+    <ClInclude Include="..\..\include\core\SkTDict.h" />
+    <ClInclude Include="..\..\include\core\SkTInternalLList.h" />
+    <ClInclude Include="..\..\include\core\SkTRegistry.h" />
+    <ClInclude Include="..\..\include\core\SkTSearch.h" />
+    <ClInclude Include="..\..\include\core\SkTemplates.h" />
+    <ClInclude Include="..\..\include\core\SkTextBlob.h" />
+    <ClInclude Include="..\..\include\core\SkThread.h" />
+    <ClInclude Include="..\..\include\core\SkTime.h" />
+    <ClInclude Include="..\..\include\core\SkTLazy.h" />
+    <ClInclude Include="..\..\include\core\SkTypeface.h" />
+    <ClInclude Include="..\..\include\core\SkTypes.h" />
+    <ClInclude Include="..\..\include\core\SkUnPreMultiply.h" />
+    <ClInclude Include="..\..\include\core\SkUtils.h" />
+    <ClInclude Include="..\..\include\core\SkWeakRefCnt.h" />
+    <ClInclude Include="..\..\include\core\SkWriter32.h" />
+    <ClInclude Include="..\..\include\core\SkXfermode.h" />
+    <ClInclude Include="..\..\src\lazy\SkCachingPixelRef.h" />
+    <ClInclude Include="..\..\include\pathops\SkPathOps.h" />
+    <ClInclude Include="..\..\src\pathops\SkAddIntersections.h" />
+    <ClInclude Include="..\..\src\pathops\SkIntersectionHelper.h" />
+    <ClInclude Include="..\..\src\pathops\SkIntersections.h" />
+    <ClInclude Include="..\..\src\pathops\SkLineParameters.h" />
+    <ClInclude Include="..\..\src\pathops\SkOpAngle.h" />
+    <ClInclude Include="..\..\src\pathops\SkOpCoincidence.h" />
+    <ClInclude Include="..\..\src\pathops\SkOpContour.h" />
+    <ClInclude Include="..\..\src\pathops\SkOpEdgeBuilder.h" />
+    <ClInclude Include="..\..\src\pathops\SkOpSegment.h" />
+    <ClInclude Include="..\..\src\pathops\SkOpSpan.h" />
+    <ClInclude Include="..\..\src\pathops\SkOpTAllocator.h" />
+    <ClInclude Include="..\..\src\pathops\SkPathOpsBounds.h" />
+    <ClInclude Include="..\..\src\pathops\SkPathOpsCommon.h" />
+    <ClInclude Include="..\..\src\pathops\SkPathOpsConic.h" />
+    <ClInclude Include="..\..\src\pathops\SkPathOpsCubic.h" />
+    <ClInclude Include="..\..\src\pathops\SkPathOpsCurve.h" />
+    <ClInclude Include="..\..\src\pathops\SkPathOpsDebug.h" />
+    <ClInclude Include="..\..\src\pathops\SkPathOpsLine.h" />
+    <ClInclude Include="..\..\src\pathops\SkPathOpsPoint.h" />
+    <ClInclude Include="..\..\src\pathops\SkPathOpsQuad.h" />
+    <ClInclude Include="..\..\src\pathops\SkPathOpsRect.h" />
+    <ClInclude Include="..\..\src\pathops\SkPathOpsTSect.h" />
+    <ClInclude Include="..\..\src\pathops\SkPathOpsTypes.h" />
+    <ClInclude Include="..\..\src\pathops\SkPathWriter.h" />
+    <ClInclude Include="..\..\src\pathops\SkReduceOrder.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\c\sk_paint.cpp" />
+    <ClCompile Include="..\..\src\c\sk_surface.cpp" />
+    <ClCompile Include="..\..\src\core\SkAAClip.cpp" />
+    <ClCompile Include="..\..\src\core\SkAnnotation.cpp" />
+    <ClCompile Include="..\..\src\core\SkAdvancedTypefaceMetrics.cpp" />
+    <ClCompile Include="..\..\src\core\SkAlphaRuns.cpp" />
+    <ClCompile Include="..\..\src\core\SkBBHFactory.cpp" />
+    <ClCompile Include="..\..\src\core\SkBigPicture.cpp" />
+    <ClCompile Include="..\..\src\core\SkBitmap.cpp" />
+    <ClCompile Include="..\..\src\core\SkBitmapCache.cpp" />
+    <ClCompile Include="..\..\src\core\SkBitmapDevice.cpp" />
+    <ClCompile Include="..\..\src\core\SkBitmapFilter.cpp" />
+    <ClCompile Include="..\..\src\core\SkBitmapHeap.cpp" />
+    <ClCompile Include="..\..\src\core\SkBitmapProcShader.cpp" />
+    <ClCompile Include="..\..\src\core\SkBitmapProcState.cpp" />
+    <ClCompile Include="..\..\src\core\SkBitmapProcState_matrixProcs.cpp" />
+    <ClCompile Include="..\..\src\core\SkBitmapScaler.cpp" />
+    <ClCompile Include="..\..\src\core\SkBlitMask_D32.cpp" />
+    <ClCompile Include="..\..\src\core\SkBlitRow_D16.cpp" />
+    <ClCompile Include="..\..\src\core\SkBlitRow_D32.cpp" />
+    <ClCompile Include="..\..\src\core\SkBlitter.cpp" />
+    <ClCompile Include="..\..\src\core\SkBlitter_A8.cpp" />
+    <ClCompile Include="..\..\src\core\SkBlitter_ARGB32.cpp" />
+    <ClCompile Include="..\..\src\core\SkBlitter_RGB16.cpp" />
+    <ClCompile Include="..\..\src\core\SkBlitter_Sprite.cpp" />
+    <ClCompile Include="..\..\src\core\SkBuffer.cpp" />
+    <ClCompile Include="..\..\src\core\SkCachedData.cpp" />
+    <ClCompile Include="..\..\src\core\SkCanvas.cpp" />
+    <ClCompile Include="..\..\src\core\SkChunkAlloc.cpp" />
+    <ClCompile Include="..\..\src\core\SkClipStack.cpp" />
+    <ClCompile Include="..\..\src\core\SkColor.cpp" />
+    <ClCompile Include="..\..\src\core\SkColorFilter.cpp" />
+    <ClCompile Include="..\..\src\core\SkColorTable.cpp" />
+    <ClCompile Include="..\..\src\core\SkComposeShader.cpp" />
+    <ClCompile Include="..\..\src\core\SkConfig8888.cpp" />
+    <ClCompile Include="..\..\src\core\SkConvolver.cpp" />
+    <ClCompile Include="..\..\src\core\SkCubicClipper.cpp" />
+    <ClCompile Include="..\..\src\core\SkData.cpp" />
+    <ClCompile Include="..\..\src\core\SkDataTable.cpp" />
+    <ClCompile Include="..\..\src\core\SkDebug.cpp" />
+    <ClCompile Include="..\..\src\core\SkDeque.cpp" />
+    <ClCompile Include="..\..\src\core\SkDevice.cpp" />
+    <ClCompile Include="..\..\src\core\SkDeviceLooper.cpp" />
+    <ClCompile Include="..\..\src\core\SkDeviceProfile.cpp" />
+    <ClCompile Include="..\..\src\lazy\SkDiscardableMemoryPool.cpp" />
+    <ClCompile Include="..\..\src\lazy\SkDiscardablePixelRef.cpp" />
+    <ClCompile Include="..\..\src\core\SkDistanceFieldGen.cpp" />
+    <ClCompile Include="..\..\src\core\SkDither.cpp" />
+    <ClCompile Include="..\..\src\core\SkDraw.cpp" />
+    <ClCompile Include="..\..\src\core\SkDrawable.cpp" />
+    <ClCompile Include="..\..\src\core\SkDrawLooper.cpp" />
+    <ClCompile Include="..\..\src\core\SkEdgeBuilder.cpp" />
+    <ClCompile Include="..\..\src\core\SkEdgeClipper.cpp" />
+    <ClCompile Include="..\..\src\core\SkEdge.cpp" />
+    <ClCompile Include="..\..\src\core\SkError.cpp" />
+    <ClCompile Include="..\..\src\core\SkFilterProc.cpp" />
+    <ClCompile Include="..\..\src\core\SkFilterShader.cpp" />
+    <ClCompile Include="..\..\src\core\SkFlattenable.cpp" />
+    <ClCompile Include="..\..\src\core\SkFlattenableSerialization.cpp" />
+    <ClCompile Include="..\..\src\core\SkFloatBits.cpp" />
+    <ClCompile Include="..\..\src\core\SkFont.cpp" />
+    <ClCompile Include="..\..\src\core\SkFontHost.cpp" />
+    <ClCompile Include="..\..\src\core\SkFontMgr.cpp" />
+    <ClCompile Include="..\..\src\core\SkFontStyle.cpp" />
+    <ClCompile Include="..\..\src\core\SkFontDescriptor.cpp" />
+    <ClCompile Include="..\..\src\core\SkFontStream.cpp" />
+    <ClCompile Include="..\..\src\core\SkGeometry.cpp" />
+    <ClCompile Include="..\..\src\core\SkGlyphCache.cpp" />
+    <ClCompile Include="..\..\src\core\SkGraphics.cpp" />
+    <ClCompile Include="..\..\src\core\SkHalf.cpp" />
+    <ClCompile Include="..\..\src\core\SkInstCnt.cpp" />
+    <ClCompile Include="..\..\src\core\SkImageFilter.cpp" />
+    <ClCompile Include="..\..\src\core\SkImageInfo.cpp" />
+    <ClCompile Include="..\..\src\core\SkImageGenerator.cpp" />
+    <ClCompile Include="..\..\src\core\SkLocalMatrixShader.cpp" />
+    <ClCompile Include="..\..\src\core\SkLineClipper.cpp" />
+    <ClCompile Include="..\..\src\core\SkMallocPixelRef.cpp" />
+    <ClCompile Include="..\..\src\core\SkMask.cpp" />
+    <ClCompile Include="..\..\src\core\SkMaskCache.cpp" />
+    <ClCompile Include="..\..\src\core\SkMaskFilter.cpp" />
+    <ClCompile Include="..\..\src\core\SkMaskGamma.cpp" />
+    <ClCompile Include="..\..\src\core\SkMath.cpp" />
+    <ClCompile Include="..\..\src\core\SkMatrix.cpp" />
+    <ClCompile Include="..\..\src\core\SkMatrixImageFilter.cpp" />
+    <ClCompile Include="..\..\src\core\SkMetaData.cpp" />
+    <ClCompile Include="..\..\src\core\SkMipMap.cpp" />
+    <ClCompile Include="..\..\src\core\SkMiniRecorder.cpp" />
+    <ClCompile Include="..\..\src\core\SkMultiPictureDraw.cpp" />
+    <ClCompile Include="..\..\src\core\SkPackBits.cpp" />
+    <ClCompile Include="..\..\src\core\SkPaint.cpp" />
+    <ClCompile Include="..\..\src\core\SkPaintPriv.cpp" />
+    <ClCompile Include="..\..\src\core\SkPath.cpp" />
+    <ClCompile Include="..\..\src\core\SkPathEffect.cpp" />
+    <ClCompile Include="..\..\src\core\SkPathMeasure.cpp" />
+    <ClCompile Include="..\..\src\core\SkPathRef.cpp" />
+    <ClCompile Include="..\..\src\core\SkPicture.cpp" />
+    <ClCompile Include="..\..\src\core\SkPictureContentInfo.cpp" />
+    <ClCompile Include="..\..\src\core\SkPictureData.cpp" />
+    <ClCompile Include="..\..\src\core\SkPictureFlat.cpp" />
+    <ClCompile Include="..\..\src\core\SkPicturePlayback.cpp" />
+    <ClCompile Include="..\..\src\core\SkPictureRecord.cpp" />
+    <ClCompile Include="..\..\src\core\SkPictureRecorder.cpp" />
+    <ClCompile Include="..\..\src\core\SkPictureShader.cpp" />
+    <ClCompile Include="..\..\src\core\SkPixelRef.cpp" />
+    <ClCompile Include="..\..\src\core\SkPixmap.cpp" />
+    <ClCompile Include="..\..\src\core\SkPoint.cpp" />
+    <ClCompile Include="..\..\src\core\SkPtrRecorder.cpp" />
+    <ClCompile Include="..\..\src\core\SkQuadClipper.cpp" />
+    <ClCompile Include="..\..\src\core\SkRasterClip.cpp" />
+    <ClCompile Include="..\..\src\core\SkRasterizer.cpp" />
+    <ClCompile Include="..\..\src\core\SkReadBuffer.cpp" />
+    <ClCompile Include="..\..\src\core\SkRecord.cpp" />
+    <ClCompile Include="..\..\src\core\SkRecordDraw.cpp" />
+    <ClCompile Include="..\..\src\core\SkRecordOpts.cpp" />
+    <ClCompile Include="..\..\src\core\SkRecorder.cpp" />
+    <ClCompile Include="..\..\src\core\SkRect.cpp" />
+    <ClCompile Include="..\..\src\core\SkRefDict.cpp" />
+    <ClCompile Include="..\..\src\core\SkRegion.cpp" />
+    <ClCompile Include="..\..\src\core\SkRegion_path.cpp" />
+    <ClCompile Include="..\..\src\core\SkResourceCache.cpp" />
+    <ClCompile Include="..\..\src\core\SkRRect.cpp" />
+    <ClCompile Include="..\..\src\core\SkRTree.cpp" />
+    <ClCompile Include="..\..\src\core\SkRWBuffer.cpp" />
+    <ClCompile Include="..\..\src\core\SkScalar.cpp" />
+    <ClCompile Include="..\..\src\core\SkScalerContext.cpp" />
+    <ClCompile Include="..\..\src\core\SkScan.cpp" />
+    <ClCompile Include="..\..\src\core\SkScan_AntiPath.cpp" />
+    <ClCompile Include="..\..\src\core\SkScan_Antihair.cpp" />
+    <ClCompile Include="..\..\src\core\SkScan_Hairline.cpp" />
+    <ClCompile Include="..\..\src\core\SkScan_Path.cpp" />
+    <ClCompile Include="..\..\src\core\SkShader.cpp" />
+    <ClCompile Include="..\..\src\core\SkSpriteBlitter_ARGB32.cpp" />
+    <ClCompile Include="..\..\src\core\SkSpriteBlitter_RGB16.cpp" />
+    <ClCompile Include="..\..\src\core\SkStream.cpp" />
+    <ClCompile Include="..\..\src\core\SkString.cpp" />
+    <ClCompile Include="..\..\src\core\SkStringUtils.cpp" />
+    <ClCompile Include="..\..\src\core\SkStroke.cpp" />
+    <ClCompile Include="..\..\src\core\SkStrokeRec.cpp" />
+    <ClCompile Include="..\..\src\core\SkStrokerPriv.cpp" />
+    <ClCompile Include="..\..\src\core\SkTaskGroup.cpp" />
+    <ClCompile Include="..\..\src\core\SkTextBlob.cpp" />
+    <ClCompile Include="..\..\src\core\SkTime.cpp" />
+    <ClCompile Include="..\..\src\core\SkTLS.cpp" />
+    <ClCompile Include="..\..\src\core\SkTSearch.cpp" />
+    <ClCompile Include="..\..\src\core\SkTypeface.cpp" />
+    <ClCompile Include="..\..\src\core\SkTypefaceCache.cpp" />
+    <ClCompile Include="..\..\src\core\SkUnPreMultiply.cpp" />
+    <ClCompile Include="..\..\src\core\SkUtils.cpp" />
+    <ClCompile Include="..\..\src\core\SkValidatingReadBuffer.cpp" />
+    <ClCompile Include="..\..\src\core\SkVarAlloc.cpp" />
+    <ClCompile Include="..\..\src\core\SkVertState.cpp" />
+    <ClCompile Include="..\..\src\core\SkWriteBuffer.cpp" />
+    <ClCompile Include="..\..\src\core\SkWriter32.cpp" />
+    <ClCompile Include="..\..\src\core\SkXfermode.cpp" />
+    <ClCompile Include="..\..\src\core\SkYUVPlanesCache.cpp" />
+    <ClCompile Include="..\..\src\doc\SkDocument.cpp" />
+    <ClCompile Include="..\..\src\image\SkImage.cpp" />
+    <ClCompile Include="..\..\src\image\SkImage_Raster.cpp" />
+    <ClCompile Include="..\..\src\image\SkSurface.cpp" />
+    <ClCompile Include="..\..\src\image\SkSurface_Raster.cpp" />
+    <ClCompile Include="..\..\src\pipe\SkGPipeRead.cpp" />
+    <ClCompile Include="..\..\src\pipe\SkGPipeWrite.cpp" />
+    <ClCompile Include="..\..\src\lazy\SkCachingPixelRef.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkAddIntersections.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkDConicLineIntersection.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkDCubicLineIntersection.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkDCubicToQuads.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkDLineIntersection.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkDQuadLineIntersection.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkIntersections.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkOpAngle.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkOpBuilder.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkOpCoincidence.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkOpContour.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkOpCubicHull.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkOpEdgeBuilder.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkOpSegment.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkOpSpan.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathOpsCommon.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathOpsConic.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathOpsCubic.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathOpsCurve.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathOpsDebug.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathOpsLine.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathOpsOp.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathOpsPoint.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathOpsQuad.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathOpsRect.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathOpsSimplify.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathOpsTSect.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathOpsTightBounds.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathOpsTypes.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathOpsWinding.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkPathWriter.cpp" />
+    <ClCompile Include="..\..\src\pathops\SkReduceOrder.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+  <!--<Target Name="Build">
+    <Exec Command="call ninja.exe -C $(OutDir) $(ProjectName)"/>
+  </Target>
+  <Target Name="Clean">
+    <Exec Command="call ninja.exe -C $(OutDir) -tclean $(ProjectName)"/>
+  </Target>-->
+</Project>

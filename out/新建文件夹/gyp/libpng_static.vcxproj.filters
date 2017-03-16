@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\libpng">
+      <UniqueIdentifier>{B9B8AD57-6556-6ACF-1428-75D1DB27CFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\libpng">
+      <UniqueIdentifier>{B9B8AD57-6556-6ACF-1428-75D1DB27CFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\libpng">
+      <UniqueIdentifier>{B9B8AD57-6556-6ACF-1428-75D1DB27CFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\libpng">
+      <UniqueIdentifier>{B9B8AD57-6556-6ACF-1428-75D1DB27CFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\libpng">
+      <UniqueIdentifier>{B9B8AD57-6556-6ACF-1428-75D1DB27CFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\libpng">
+      <UniqueIdentifier>{B9B8AD57-6556-6ACF-1428-75D1DB27CFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\libpng">
+      <UniqueIdentifier>{B9B8AD57-6556-6ACF-1428-75D1DB27CFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\libpng">
+      <UniqueIdentifier>{B9B8AD57-6556-6ACF-1428-75D1DB27CFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\libpng">
+      <UniqueIdentifier>{B9B8AD57-6556-6ACF-1428-75D1DB27CFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\libpng">
+      <UniqueIdentifier>{B9B8AD57-6556-6ACF-1428-75D1DB27CFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\libpng">
+      <UniqueIdentifier>{B9B8AD57-6556-6ACF-1428-75D1DB27CFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\libpng">
+      <UniqueIdentifier>{B9B8AD57-6556-6ACF-1428-75D1DB27CFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\libpng">
+      <UniqueIdentifier>{B9B8AD57-6556-6ACF-1428-75D1DB27CFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\libpng">
+      <UniqueIdentifier>{B9B8AD57-6556-6ACF-1428-75D1DB27CFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\libpng">
+      <UniqueIdentifier>{B9B8AD57-6556-6ACF-1428-75D1DB27CFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gyp">
+      <UniqueIdentifier>{30B32512-2E13-32EA-B437-6F75133648E3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\third_party\externals\libpng\png.c">
+      <Filter>third_party\externals\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\libpng\pngerror.c">
+      <Filter>third_party\externals\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\libpng\pngget.c">
+      <Filter>third_party\externals\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\libpng\pngmem.c">
+      <Filter>third_party\externals\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\libpng\pngpread.c">
+      <Filter>third_party\externals\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\libpng\pngread.c">
+      <Filter>third_party\externals\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\libpng\pngrio.c">
+      <Filter>third_party\externals\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\libpng\pngrtran.c">
+      <Filter>third_party\externals\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\libpng\pngrutil.c">
+      <Filter>third_party\externals\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\libpng\pngset.c">
+      <Filter>third_party\externals\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\libpng\pngtrans.c">
+      <Filter>third_party\externals\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\libpng\pngwio.c">
+      <Filter>third_party\externals\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\libpng\pngwrite.c">
+      <Filter>third_party\externals\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\libpng\pngwtran.c">
+      <Filter>third_party\externals\libpng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\libpng\pngwutil.c">
+      <Filter>third_party\externals\libpng</Filter>
+    </ClCompile>
+    <None Include="..\..\gyp\libpng.gyp">
+      <Filter>gyp</Filter>
+    </None>
+  </ItemGroup>
+</Project>

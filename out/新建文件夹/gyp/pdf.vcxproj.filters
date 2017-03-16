@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="gyp">
+      <UniqueIdentifier>{30B32512-2E13-32EA-B437-6F75133648E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\doc">
+      <UniqueIdentifier>{8C0618A2-4120-3539-46C9-8A0A073ADAD5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{8CDEE807-BC53-E450-C8B8-4DEBB66742D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pdf">
+      <UniqueIdentifier>{56480206-DE3F-C823-DE52-8906D4B76BB3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gyp">
+      <UniqueIdentifier>{30B32512-2E13-32EA-B437-6F75133648E3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\gyp\pdf.gypi">
+      <Filter>gyp</Filter>
+    </None>
+    <ClCompile Include="..\..\src\doc\SkDocument_PDF.cpp">
+      <Filter>src\doc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\pdf\SkJpegInfo.cpp">
+      <Filter>src\pdf</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\pdf\SkJpegInfo.h">
+      <Filter>src\pdf</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\pdf\SkPDFBitmap.cpp">
+      <Filter>src\pdf</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\pdf\SkPDFBitmap.h">
+      <Filter>src\pdf</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\pdf\SkPDFCanon.cpp">
+      <Filter>src\pdf</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\pdf\SkPDFCanon.h">
+      <Filter>src\pdf</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\pdf\SkPDFDevice.cpp">
+      <Filter>src\pdf</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\pdf\SkPDFDevice.h">
+      <Filter>src\pdf</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\pdf\SkPDFFont.cpp">
+      <Filter>src\pdf</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\pdf\SkPDFFont.h">
+      <Filter>src\pdf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\pdf\SkPDFFontImpl.h">
+      <Filter>src\pdf</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\pdf\SkPDFFormXObject.cpp">
+      <Filter>src\pdf</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\pdf\SkPDFFormXObject.h">
+      <Filter>src\pdf</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\pdf\SkPDFGraphicState.cpp">
+      <Filter>src\pdf</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\pdf\SkPDFGraphicState.h">
+      <Filter>src\pdf</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\pdf\SkPDFResourceDict.cpp">
+      <Filter>src\pdf</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\pdf\SkPDFResourceDict.h">
+      <Filter>src\pdf</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\pdf\SkPDFShader.cpp">
+      <Filter>src\pdf</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\pdf\SkPDFShader.h">
+      <Filter>src\pdf</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\pdf\SkPDFStream.cpp">
+      <Filter>src\pdf</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\pdf\SkPDFStream.h">
+      <Filter>src\pdf</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\pdf\SkPDFTypes.cpp">
+      <Filter>src\pdf</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\pdf\SkPDFTypes.h">
+      <Filter>src\pdf</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\src\pdf\SkPDFUtils.cpp">
+      <Filter>src\pdf</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\src\pdf\SkPDFUtils.h">
+      <Filter>src\pdf</Filter>
+    </ClInclude>
+    <None Include="..\..\gyp\pdf.gyp">
+      <Filter>gyp</Filter>
+    </None>
+  </ItemGroup>
+</Project>

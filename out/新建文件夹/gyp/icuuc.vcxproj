@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Developer|Win32">
+      <Configuration>Release_Developer</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4B842E40-3A54-B342-39E5-F3A674D0596C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>icuuc</RootNamespace>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Locals">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <ExecutablePath>$(ExecutablePath);$(MSBuildProjectDirectory)\..\..\gyp\bin\;$(MSBuildProjectDirectory)\..\..\gyp\bin\</ExecutablePath>
+    <IntDir>$(Configuration)\obj\$(ProjectName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir>..\..\out\$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <TargetPath>$(OutDir)lib\$(ProjectName)$(TargetExt)</TargetPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\third_party\externals\icu\source\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 /EHsc /GR /w %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;4005;4068;4244;4996;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;U_COMMON_IMPLEMENTATION;U_HIDE_DATA_SYMBOL;U_USING_ICU_NAMESPACE=0;HAVE_DLOPEN=0;UCONFIG_NO_NON_HTML5_CONVERSION=1;U_STATIC_IMPLEMENTATION;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)lib\$(ProjectName)$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\third_party\externals\icu\source\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;U_COMMON_IMPLEMENTATION;U_HIDE_DATA_SYMBOL;U_USING_ICU_NAMESPACE=0;HAVE_DLOPEN=0;UCONFIG_NO_NON_HTML5_CONVERSION=1;U_STATIC_IMPLEMENTATION;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\third_party\externals\icu\source\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 /EHsc /GR /w %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;4005;4068;4244;4996;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;U_COMMON_IMPLEMENTATION;U_HIDE_DATA_SYMBOL;U_USING_ICU_NAMESPACE=0;HAVE_DLOPEN=0;UCONFIG_NO_NON_HTML5_CONVERSION=1;U_STATIC_IMPLEMENTATION;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)lib\$(ProjectName)$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\third_party\externals\icu\source\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;U_COMMON_IMPLEMENTATION;U_HIDE_DATA_SYMBOL;U_USING_ICU_NAMESPACE=0;HAVE_DLOPEN=0;UCONFIG_NO_NON_HTML5_CONVERSION=1;U_STATIC_IMPLEMENTATION;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\third_party\externals\icu\source\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 /EHsc /GR /w %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;4005;4068;4244;4996;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;U_COMMON_IMPLEMENTATION;U_HIDE_DATA_SYMBOL;U_USING_ICU_NAMESPACE=0;HAVE_DLOPEN=0;UCONFIG_NO_NON_HTML5_CONVERSION=1;U_STATIC_IMPLEMENTATION;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)lib\$(ProjectName)$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\third_party\externals\icu\source\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;U_COMMON_IMPLEMENTATION;U_HIDE_DATA_SYMBOL;U_USING_ICU_NAMESPACE=0;HAVE_DLOPEN=0;UCONFIG_NO_NON_HTML5_CONVERSION=1;U_STATIC_IMPLEMENTATION;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\third_party\externals\icu\source\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 /EHsc /GR /w %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;4005;4068;4244;4996;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;U_COMMON_IMPLEMENTATION;U_HIDE_DATA_SYMBOL;U_USING_ICU_NAMESPACE=0;HAVE_DLOPEN=0;UCONFIG_NO_NON_HTML5_CONVERSION=1;U_STATIC_IMPLEMENTATION;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)lib\$(ProjectName)$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\third_party\externals\icu\source\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;U_COMMON_IMPLEMENTATION;U_HIDE_DATA_SYMBOL;U_USING_ICU_NAMESPACE=0;HAVE_DLOPEN=0;UCONFIG_NO_NON_HTML5_CONVERSION=1;U_STATIC_IMPLEMENTATION;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Developer|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\third_party\externals\icu\source\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 /EHsc /GR /w %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;4005;4068;4244;4996;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;U_COMMON_IMPLEMENTATION;U_HIDE_DATA_SYMBOL;U_USING_ICU_NAMESPACE=0;HAVE_DLOPEN=0;UCONFIG_NO_NON_HTML5_CONVERSION=1;U_STATIC_IMPLEMENTATION;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)lib\$(ProjectName)$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\third_party\externals\icu\source\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;U_COMMON_IMPLEMENTATION;U_HIDE_DATA_SYMBOL;U_USING_ICU_NAMESPACE=0;HAVE_DLOPEN=0;UCONFIG_NO_NON_HTML5_CONVERSION=1;U_STATIC_IMPLEMENTATION;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\third_party\externals\icu\source\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 /EHsc /GR /w %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;4005;4068;4244;4996;4267;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;U_COMMON_IMPLEMENTATION;U_HIDE_DATA_SYMBOL;U_USING_ICU_NAMESPACE=0;HAVE_DLOPEN=0;UCONFIG_NO_NON_HTML5_CONVERSION=1;U_STATIC_IMPLEMENTATION;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)lib\$(ProjectName)$(TargetExt)</OutputFile>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\third_party\externals\icu\source\common;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;U_COMMON_IMPLEMENTATION;U_HIDE_DATA_SYMBOL;U_USING_ICU_NAMESPACE=0;HAVE_DLOPEN=0;UCONFIG_NO_NON_HTML5_CONVERSION=1;U_STATIC_IMPLEMENTATION;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\gyp\icu.gyp" />
+    <None Include="..\..\third_party\externals\icu\windows\icudt.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\bmpset.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\brkeng.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\brkiter.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\bytestream.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\caniter.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\chariter.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\charstr.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\cmemory.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\cstring.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\cwchar.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\dictbe.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\dtintrv.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\errorcode.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\filterednormalizer2.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\icudataver.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\icuplug.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\locavailable.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\locbased.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\locdispnames.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\locid.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\loclikely.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\locmap.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\locresdata.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\locutil.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\normalizer2.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\normalizer2impl.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\normlzr.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\parsepos.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\propname.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\propsvec.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\punycode.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\putil.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\rbbi.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\rbbidata.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\rbbinode.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\rbbirb.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\rbbiscan.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\rbbisetb.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\rbbistbl.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\rbbitblb.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\resbund.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\resbund_cnv.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ruleiter.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\schriter.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\serv.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\servlk.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\servlkf.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\servls.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\servnotf.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\servrbf.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\servslkf.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\stringpiece.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uarrsort.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ubidi.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ubidi_props.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ubidi_props_data.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ubidiln.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ubidiwrt.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ubrk.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucase.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucase_props_data.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucasemap.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucat.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uchar.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uchar_props_data.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uchriter.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucln_cmn.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucmndata.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnv.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnv2022.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnv_bld.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnv_cb.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnv_cnv.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnv_err.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnv_ext.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnv_io.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnv_lmb.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnv_set.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnv_u16.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnv_u32.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnv_u7.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnv_u8.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnvbocu.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnvdisp.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnvhz.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnvisci.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnvlat1.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnvmbcs.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnvscsu.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucnvsel.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ucol_swp.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\udata.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\udatamem.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\udataswp.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uenum.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uhash.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uhash_us.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uidna.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uinit.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uinvchar.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uiter.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ulist.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uloc.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uloc_tag.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\umapfile.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\umath.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\umutex.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\unames.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\unifilt.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\unifunct.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uniset.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uniset_props.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\unisetspan.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\unistr.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\unistr_case.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\unistr_cnv.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\unistr_props.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\unorm.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\unorm_it.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\unormcmp.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uobject.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uprops.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ures_cnv.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uresbund.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uresdata.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\usc_impl.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uscript.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uset.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uset_props.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\usetiter.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ushape.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\usprep.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ustack.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ustr_cnv.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ustr_wcs.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ustrcase.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ustrenum.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ustrfmt.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ustring.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\ustrtrns.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\utext.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\utf_impl.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\util.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\util_props.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\utrace.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\utrie.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\utrie2.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\utrie2_builder.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uts46.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\utypes.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uvector.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uvectr32.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\uvectr64.cpp" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\common\wintz.c" />
+    <ClCompile Include="..\..\third_party\externals\icu\source\stubdata\stubdata.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+  <!--<Target Name="Build">
+    <Exec Command="call ninja.exe -C $(OutDir) $(ProjectName)"/>
+  </Target>
+  <Target Name="Clean">
+    <Exec Command="call ninja.exe -C $(OutDir) -tclean $(ProjectName)"/>
+  </Target>-->
+</Project>

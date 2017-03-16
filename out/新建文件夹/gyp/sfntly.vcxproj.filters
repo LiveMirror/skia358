@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sample">
+      <UniqueIdentifier>{29D8A166-E412-427D-CD24-D84C39954917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sample\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sample">
+      <UniqueIdentifier>{29D8A166-E412-427D-CD24-D84C39954917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sample\chromium">
+      <UniqueIdentifier>{A235D2A4-63B6-DD4D-7F7F-D3EA248BB602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\data">
+      <UniqueIdentifier>{BB2F2B9D-F30E-26CC-2AEB-5F1CF39B6163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\port">
+      <UniqueIdentifier>{56285779-61EB-16AC-749B-C9867D0449BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\port">
+      <UniqueIdentifier>{56285779-61EB-16AC-749B-C9867D0449BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\port">
+      <UniqueIdentifier>{56285779-61EB-16AC-749B-C9867D0449BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\port">
+      <UniqueIdentifier>{56285779-61EB-16AC-749B-C9867D0449BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\bitmap">
+      <UniqueIdentifier>{F9A94222-1886-DFC6-9123-B4381FB3F2DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\core">
+      <UniqueIdentifier>{16178836-FF57-2363-AA2B-8BAC1DC00026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\truetype">
+      <UniqueIdentifier>{E5AC5731-56CD-C97C-E492-41470FA2CF66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table">
+      <UniqueIdentifier>{0C1E139B-0634-F9F7-68C7-7D220860C8C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\table\truetype">
+      <UniqueIdentifier>{E5AC5731-56CD-C97C-E492-41470FA2CF66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\tools\subsetter">
+      <UniqueIdentifier>{27698B06-9962-277D-DD59-E9D89CE02A80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\tools\subsetter">
+      <UniqueIdentifier>{27698B06-9962-277D-DD59-E9D89CE02A80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly">
+      <UniqueIdentifier>{CC231477-9852-14FF-62A9-A6A4ED56679A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\tools">
+      <UniqueIdentifier>{A0946190-5491-4D66-7E51-19400E36F078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\sfntly\sfntly\tools\subsetter">
+      <UniqueIdentifier>{27698B06-9962-277D-DD59-E9D89CE02A80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gyp">
+      <UniqueIdentifier>{30B32512-2E13-32EA-B437-6F75133648E3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sample\chromium\font_subsetter.cc">
+      <Filter>third_party\externals\sfntly\sample\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sample\chromium\subsetter_impl.cc">
+      <Filter>third_party\externals\sfntly\sample\chromium</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\font.cc">
+      <Filter>third_party\externals\sfntly\sfntly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\font_factory.cc">
+      <Filter>third_party\externals\sfntly\sfntly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\tag.cc">
+      <Filter>third_party\externals\sfntly\sfntly</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\data\byte_array.cc">
+      <Filter>third_party\externals\sfntly\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\data\font_data.cc">
+      <Filter>third_party\externals\sfntly\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\data\font_input_stream.cc">
+      <Filter>third_party\externals\sfntly\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\data\font_output_stream.cc">
+      <Filter>third_party\externals\sfntly\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\data\growable_memory_byte_array.cc">
+      <Filter>third_party\externals\sfntly\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\data\memory_byte_array.cc">
+      <Filter>third_party\externals\sfntly\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\data\readable_font_data.cc">
+      <Filter>third_party\externals\sfntly\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\data\writable_font_data.cc">
+      <Filter>third_party\externals\sfntly\sfntly\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\port\file_input_stream.cc">
+      <Filter>third_party\externals\sfntly\sfntly\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\port\lock.cc">
+      <Filter>third_party\externals\sfntly\sfntly\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\port\memory_input_stream.cc">
+      <Filter>third_party\externals\sfntly\sfntly\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\port\memory_output_stream.cc">
+      <Filter>third_party\externals\sfntly\sfntly\port</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\byte_array_table_builder.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\font_data_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\generic_table_builder.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\header.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\subtable.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\table_based_table_builder.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\big_glyph_metrics.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\bitmap_glyph.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\bitmap_glyph_info.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\bitmap_size_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\composite_bitmap_glyph.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\ebdt_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\eblc_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\ebsc_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\glyph_metrics.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\index_sub_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\index_sub_table_format1.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\index_sub_table_format2.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\index_sub_table_format3.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\index_sub_table_format4.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\index_sub_table_format5.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\simple_bitmap_glyph.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\bitmap\small_glyph_metrics.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\core\cmap_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\core\font_header_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\core\horizontal_device_metrics_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\core\horizontal_header_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\core\horizontal_metrics_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\core\maximum_profile_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\core\name_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\core\os2_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\truetype\glyph_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\truetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\table\truetype\loca_table.cc">
+      <Filter>third_party\externals\sfntly\sfntly\table\truetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\tools\subsetter\glyph_table_subsetter.cc">
+      <Filter>third_party\externals\sfntly\sfntly\tools\subsetter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\tools\subsetter\subsetter.cc">
+      <Filter>third_party\externals\sfntly\sfntly\tools\subsetter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\sfntly\sfntly\tools\subsetter\table_subsetter_impl.cc">
+      <Filter>third_party\externals\sfntly\sfntly\tools\subsetter</Filter>
+    </ClCompile>
+    <None Include="..\..\gyp\sfntly.gyp">
+      <Filter>gyp</Filter>
+    </None>
+  </ItemGroup>
+</Project>

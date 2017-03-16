@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{D6C6CEA7-AAD0-03AD-2394-AC6FCBF8A498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals">
+      <UniqueIdentifier>{F8F95FEA-90CC-6B62-3182-3B37CB7F213E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\externals\zlib">
+      <UniqueIdentifier>{C0DCEB43-4CB9-1A24-382F-7A9A302B6901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gyp">
+      <UniqueIdentifier>{30B32512-2E13-32EA-B437-6F75133648E3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\third_party\externals\zlib\adler32.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\zlib\compress.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\zlib\crc32.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\third_party\externals\zlib\crc32.h">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\third_party\externals\zlib\deflate.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\third_party\externals\zlib\deflate.h">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\third_party\externals\zlib\gzclose.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\third_party\externals\zlib\gzguts.h">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\third_party\externals\zlib\gzlib.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\zlib\gzread.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\zlib\gzwrite.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\zlib\infback.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\third_party\externals\zlib\inffast.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\third_party\externals\zlib\inffast.h">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\externals\zlib\inffixed.h">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\third_party\externals\zlib\inflate.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\third_party\externals\zlib\inflate.h">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\third_party\externals\zlib\inftrees.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\third_party\externals\zlib\inftrees.h">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\externals\zlib\mozzconf.h">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\third_party\externals\zlib\trees.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\third_party\externals\zlib\trees.h">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\third_party\externals\zlib\uncompr.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\third_party\externals\zlib\x86.h">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\third_party\externals\zlib\x86.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\third_party\externals\zlib\zconf.h">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\third_party\externals\zlib\zlib.h">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\third_party\externals\zlib\zutil.c">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\third_party\externals\zlib\zutil.h">
+      <Filter>third_party\externals\zlib</Filter>
+    </ClInclude>
+    <None Include="..\..\gyp\zlib.gyp">
+      <Filter>gyp</Filter>
+    </None>
+  </ItemGroup>
+</Project>

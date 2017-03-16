@@ -1,0 +1,904 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Developer|Win32">
+      <Configuration>Release_Developer</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="vs2013XpRelease|Win32">
+      <Configuration>vs2013XpRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0619E770-0413-0022-1897-D53D3718847B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>dm</RootNamespace>
+    <IgnoreWarnCompileDuplicatedFilename>true</IgnoreWarnCompileDuplicatedFilename>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+  </PropertyGroup>
+  <PropertyGroup Label="Locals">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="PropertySheets">
+    <Import Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <ExecutablePath>$(ExecutablePath);$(MSBuildProjectDirectory)\..\..\gyp\bin\;$(MSBuildProjectDirectory)\..\..\gyp\bin\</ExecutablePath>
+    <IntDir>$(Configuration)\obj\$(ProjectName)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir>..\..\out\$(Configuration)\</OutDir>
+    <TargetName>$(ProjectName)</TargetName>
+    <TargetPath>$(OutDir)\$(ProjectName)$(TargetExt)</TargetPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib;Dbghelp.lib;windowscodecs.lib;t2embed.lib;fontsub.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>false</ExceptionHandling>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>_DEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib;Dbghelp.lib;windowscodecs.lib;t2embed.lib;fontsub.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib;Dbghelp.lib;windowscodecs.lib;t2embed.lib;fontsub.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2013XpRelease|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib;Dbghelp.lib;windowscodecs.lib;t2embed.lib;fontsub.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib;Dbghelp.lib;windowscodecs.lib;t2embed.lib;fontsub.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2013XpRelease|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib;Dbghelp.lib;windowscodecs.lib;t2embed.lib;fontsub.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Developer|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib;Dbghelp.lib;windowscodecs.lib;t2embed.lib;fontsub.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;NDEBUG;SK_DEVELOPER=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib;Dbghelp.lib;windowscodecs.lib;t2embed.lib;fontsub.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='vs2013XpRelease|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/MP /we4189 %(AdditionalOptions)</AdditionalOptions>
+      <CompileAsWinRT>false</CompileAsWinRT>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4275;4345;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <ExceptionHandling>false</ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <Optimization>Full</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>NDEBUG;SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level3</WarningLevel>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Lib>
+      <LinkTimeCodeGeneration>true</LinkTimeCodeGeneration>
+    </Lib>
+    <Link>
+      <AdditionalDependencies>OpenGL32.lib;usp10.lib;kernel32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;user32.lib;uuid.lib;odbc32.lib;odbccp32.lib;DelayImp.lib;Dbghelp.lib;windowscodecs.lib;t2embed.lib;fontsub.lib</AdditionalDependencies>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <LargeAddressAware>true</LargeAddressAware>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <OutputFile>$(OutDir)$(ProjectName)$(TargetExt)</OutputFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\..\dm;..\..\gm;..\..\src\core;..\..\src\effects;..\..\src\images;..\..\src\lazy;..\..\src\pipe\utils;..\..\src\utils;..\..\src\utils\debugger;..\..\tests;..\..\tools;..\..\src\pathops;..\..\src\pipe\utils;..\..\src\codec;..\..\src\image;..\..\src\pdf;..\..\experimental\PdfViewer;..\..\experimental\PdfViewer\src;..\..\third_party\etc1;..\..\tools\flags;..\..\third_party\externals\jsoncpp\include;..\..\include\c;..\..\include\config;..\..\include\core;..\..\include\pathops;..\..\include\pipe;..\..\gyp\config\win;..\..\include\codec;..\..\include\effects;..\..\include\images;..\..\include\ports;..\..\src\sfnt;..\..\include\utils;..\..\include\utils\win;..\..\include\gpu;..\..\include\svg;..\..\tools\timer;..\..\include\xml;..\..\include\device\xps;..\..\experimental;..\..\tools;..\..\src\gpu;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SK_INTERNAL;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_SCALAR_TO_FLOAT_EXCLUDED;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SUPPORT_GPU=1;SK_SUPPORT_OPENCL=0;SK_FORCE_DISTANCE_FIELD_TEXT=0;SK_BUILD_FOR_WIN32;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_XPS_USE_DETERMINISTIC_IDS;SK_SUPPORT_PDF;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\..\gyp\dm.gyp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\tests\Test.h" />
+    <ClInclude Include="..\..\tests\PathOpsCubicIntersectionTestData.h" />
+    <ClInclude Include="..\..\tests\PathOpsExtendedTest.h" />
+    <ClInclude Include="..\..\tests\PathOpsQuadIntersectionTestData.h" />
+    <ClInclude Include="..\..\tests\PathOpsTestCommon.h" />
+    <ClInclude Include="..\..\tests\PathOpsThreadedCommon.h" />
+    <ClInclude Include="..\..\tests\PathOpsTSectDebug.h" />
+    <ClInclude Include="..\..\src\utils\debugger\SkDrawCommand.h" />
+    <ClInclude Include="..\..\src\utils\debugger\SkDebugCanvas.h" />
+    <ClInclude Include="..\..\src\utils\debugger\SkObjectParser.h" />
+    <ClInclude Include="..\..\experimental\PdfViewer\src\SkTDStackNester.h" />
+    <ClInclude Include="..\..\src\gpu\GrTestBatch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\dm\DM.cpp" />
+    <ClCompile Include="..\..\dm\DMSrcSink.cpp" />
+    <ClCompile Include="..\..\dm\DMJsonWriter.cpp" />
+    <ClCompile Include="..\..\gm\gm.cpp" />
+    <ClCompile Include="..\..\src\pipe\utils\SamplePipeControllers.cpp" />
+    <ClCompile Include="..\..\src\utils\debugger\SkDebugCanvas.cpp" />
+    <ClCompile Include="..\..\src\utils\debugger\SkDrawCommand.cpp" />
+    <ClCompile Include="..\..\src\utils\debugger\SkObjectParser.cpp" />
+    <ClCompile Include="..\..\tests\Test.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsAngleTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsBoundsTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsBuilderTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsBuildUseTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsConicIntersectionTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsConicLineIntersectionTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsCubicIntersectionTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsCubicIntersectionTestData.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsCubicLineIntersectionTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsCubicQuadIntersectionTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsCubicReduceOrderTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsDCubicTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsDLineTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsDPointTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsDRectTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsDVectorTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsExtendedTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsFuzz763Test.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsInverseTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsIssue3651.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsLineIntersectionTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsLineParametetersTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsOpCircleThreadedTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsOpCubicThreadedTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsOpRectThreadedTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsOpTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsQuadIntersectionTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsQuadIntersectionTestData.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsQuadLineIntersectionTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsQuadLineIntersectionThreadedTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsQuadReduceOrderTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsSimplifyDegenerateThreadedTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsSimplifyFailTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsSimplifyQuadralateralsThreadedTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsSimplifyQuadThreadedTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsSimplifyRectThreadedTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsSimplifyTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsSimplifyTrianglesThreadedTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsSkpTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsTestCommon.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsThreadedCommon.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsThreeWayTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsTightBoundsTest.cpp" />
+    <ClCompile Include="..\..\tests\PathOpsTypesTest.cpp" />
+    <ClCompile Include="..\..\tests\AAClipTest.cpp" />
+    <ClCompile Include="..\..\tests\ARGBImageEncoderTest.cpp" />
+    <ClCompile Include="..\..\tests\AnnotationTest.cpp" />
+    <ClCompile Include="..\..\tests\AsADashTest.cpp" />
+    <ClCompile Include="..\..\tests\AtomicTest.cpp" />
+    <ClCompile Include="..\..\tests\BadIcoTest.cpp" />
+    <ClCompile Include="..\..\tests\BitSetTest.cpp" />
+    <ClCompile Include="..\..\tests\BitmapCopyTest.cpp" />
+    <ClCompile Include="..\..\tests\BitmapGetColorTest.cpp" />
+    <ClCompile Include="..\..\tests\BitmapHasherTest.cpp" />
+    <ClCompile Include="..\..\tests\BitmapHeapTest.cpp" />
+    <ClCompile Include="..\..\tests\BitmapTest.cpp" />
+    <ClCompile Include="..\..\tests\BlendTest.cpp" />
+    <ClCompile Include="..\..\tests\BlitRowTest.cpp" />
+    <ClCompile Include="..\..\tests\BlurTest.cpp" />
+    <ClCompile Include="..\..\tests\CPlusPlusEleven.cpp" />
+    <ClCompile Include="..\..\tests\CTest.cpp" />
+    <ClCompile Include="..\..\tests\CachedDataTest.cpp" />
+    <ClCompile Include="..\..\tests\CachedDecodingPixelRefTest.cpp" />
+    <ClCompile Include="..\..\tests\CanvasStateHelpers.cpp" />
+    <ClCompile Include="..\..\tests\CanvasStateTest.cpp" />
+    <ClCompile Include="..\..\tests\CanvasTest.cpp" />
+    <ClCompile Include="..\..\tests\ChecksumTest.cpp" />
+    <ClCompile Include="..\..\tests\ClampRangeTest.cpp" />
+    <ClCompile Include="..\..\tests\ClipCacheTest.cpp" />
+    <ClCompile Include="..\..\tests\ClipCubicTest.cpp" />
+    <ClCompile Include="..\..\tests\ClipStackTest.cpp" />
+    <ClCompile Include="..\..\tests\ClipperTest.cpp" />
+    <ClCompile Include="..\..\tests\CodexTest.cpp" />
+    <ClCompile Include="..\..\tests\ColorFilterTest.cpp" />
+    <ClCompile Include="..\..\tests\ColorPrivTest.cpp" />
+    <ClCompile Include="..\..\tests\ColorTest.cpp" />
+    <ClCompile Include="..\..\tests\DashPathEffectTest.cpp" />
+    <ClCompile Include="..\..\tests\DataRefTest.cpp" />
+    <ClCompile Include="..\..\tests\DeferredCanvasTest.cpp" />
+    <ClCompile Include="..\..\tests\DeflateWStream.cpp" />
+    <ClCompile Include="..\..\tests\DequeTest.cpp" />
+    <ClCompile Include="..\..\tests\DeviceLooperTest.cpp" />
+    <ClCompile Include="..\..\tests\DiscardableMemoryPoolTest.cpp" />
+    <ClCompile Include="..\..\tests\DiscardableMemoryTest.cpp" />
+    <ClCompile Include="..\..\tests\DocumentTest.cpp" />
+    <ClCompile Include="..\..\tests\DrawBitmapRectTest.cpp" />
+    <ClCompile Include="..\..\tests\DrawFilterTest.cpp" />
+    <ClCompile Include="..\..\tests\DrawPathTest.cpp" />
+    <ClCompile Include="..\..\tests\DrawTextTest.cpp" />
+    <ClCompile Include="..\..\tests\DynamicHashTest.cpp" />
+    <ClCompile Include="..\..\tests\EmptyPathTest.cpp" />
+    <ClCompile Include="..\..\tests\ErrorTest.cpp" />
+    <ClCompile Include="..\..\tests\FillPathTest.cpp" />
+    <ClCompile Include="..\..\tests\FitsInTest.cpp" />
+    <ClCompile Include="..\..\tests\FlateTest.cpp" />
+    <ClCompile Include="..\..\tests\FloatingPointTextureTest.cpp" />
+    <ClCompile Include="..\..\tests\FontHostStreamTest.cpp" />
+    <ClCompile Include="..\..\tests\FontHostTest.cpp" />
+    <ClCompile Include="..\..\tests\FontMgrTest.cpp" />
+    <ClCompile Include="..\..\tests\FontNamesTest.cpp" />
+    <ClCompile Include="..\..\tests\FontObjTest.cpp" />
+    <ClCompile Include="..\..\tests\FrontBufferedStreamTest.cpp" />
+    <ClCompile Include="..\..\tests\FunctionTest.cpp" />
+    <ClCompile Include="..\..\tests\GLInterfaceValidationTest.cpp" />
+    <ClCompile Include="..\..\tests\GLProgramsTest.cpp" />
+    <ClCompile Include="..\..\tests\GeometryTest.cpp" />
+    <ClCompile Include="..\..\tests\GifTest.cpp" />
+    <ClCompile Include="..\..\tests\GpuColorFilterTest.cpp" />
+    <ClCompile Include="..\..\tests\GpuDrawPathTest.cpp" />
+    <ClCompile Include="..\..\tests\GpuLayerCacheTest.cpp" />
+    <ClCompile Include="..\..\tests\GpuRectanizerTest.cpp" />
+    <ClCompile Include="..\..\tests\GrAllocatorTest.cpp" />
+    <ClCompile Include="..\..\tests\GrContextFactoryTest.cpp" />
+    <ClCompile Include="..\..\tests\GrDrawTargetTest.cpp" />
+    <ClCompile Include="..\..\tests\GrGLSLPrettyPrintTest.cpp" />
+    <ClCompile Include="..\..\tests\GrMemoryPoolTest.cpp" />
+    <ClCompile Include="..\..\tests\GrOrderedSetTest.cpp" />
+    <ClCompile Include="..\..\tests\GrRedBlackTreeTest.cpp" />
+    <ClCompile Include="..\..\tests\GrSurfaceTest.cpp" />
+    <ClCompile Include="..\..\tests\GrTBSearchTest.cpp" />
+    <ClCompile Include="..\..\tests\GrTRecorderTest.cpp" />
+    <ClCompile Include="..\..\tests\GradientTest.cpp" />
+    <ClCompile Include="..\..\tests\HashTest.cpp" />
+    <ClCompile Include="..\..\tests\ImageCacheTest.cpp" />
+    <ClCompile Include="..\..\tests\ImageDecodingTest.cpp" />
+    <ClCompile Include="..\..\tests\ImageFilterTest.cpp" />
+    <ClCompile Include="..\..\tests\ImageGeneratorTest.cpp" />
+    <ClCompile Include="..\..\tests\ImageIsOpaqueTest.cpp" />
+    <ClCompile Include="..\..\tests\ImageNewShaderTest.cpp" />
+    <ClCompile Include="..\..\tests\IndexedPngOverflowTest.cpp" />
+    <ClCompile Include="..\..\tests\InfRectTest.cpp" />
+    <ClCompile Include="..\..\tests\InterpolatorTest.cpp" />
+    <ClCompile Include="..\..\tests\InvalidIndexedPngTest.cpp" />
+    <ClCompile Include="..\..\tests\JpegTest.cpp" />
+    <ClCompile Include="..\..\tests\KtxTest.cpp" />
+    <ClCompile Include="..\..\tests\LListTest.cpp" />
+    <ClCompile Include="..\..\tests\LayerDrawLooperTest.cpp" />
+    <ClCompile Include="..\..\tests\LayerRasterizerTest.cpp" />
+    <ClCompile Include="..\..\tests\LazyPtrTest.cpp" />
+    <ClCompile Include="..\..\tests\MD5Test.cpp" />
+    <ClCompile Include="..\..\tests\MallocPixelRefTest.cpp" />
+    <ClCompile Include="..\..\tests\MaskCacheTest.cpp" />
+    <ClCompile Include="..\..\tests\MathTest.cpp" />
+    <ClCompile Include="..\..\tests\Matrix44Test.cpp" />
+    <ClCompile Include="..\..\tests\MatrixClipCollapseTest.cpp" />
+    <ClCompile Include="..\..\tests\MatrixTest.cpp" />
+    <ClCompile Include="..\..\tests\MemoryTest.cpp" />
+    <ClCompile Include="..\..\tests\MemsetTest.cpp" />
+    <ClCompile Include="..\..\tests\MessageBusTest.cpp" />
+    <ClCompile Include="..\..\tests\MetaDataTest.cpp" />
+    <ClCompile Include="..\..\tests\MipMapTest.cpp" />
+    <ClCompile Include="..\..\tests\NameAllocatorTest.cpp" />
+    <ClCompile Include="..\..\tests\OSPathTest.cpp" />
+    <ClCompile Include="..\..\tests\OnceTest.cpp" />
+    <ClCompile Include="..\..\tests\PDFInvalidBitmapTest.cpp" />
+    <ClCompile Include="..\..\tests\PDFJpegEmbedTest.cpp" />
+    <ClCompile Include="..\..\tests\PDFPrimitivesTest.cpp" />
+    <ClCompile Include="..\..\tests\PMFloatTest.cpp" />
+    <ClCompile Include="..\..\tests\PackBitsTest.cpp" />
+    <ClCompile Include="..\..\tests\PaintTest.cpp" />
+    <ClCompile Include="..\..\tests\ParsePathTest.cpp" />
+    <ClCompile Include="..\..\tests\PathCoverageTest.cpp" />
+    <ClCompile Include="..\..\tests\PathMeasureTest.cpp" />
+    <ClCompile Include="..\..\tests\PathTest.cpp" />
+    <ClCompile Include="..\..\tests\PictureBBHTest.cpp" />
+    <ClCompile Include="..\..\tests\PictureShaderTest.cpp" />
+    <ClCompile Include="..\..\tests\PictureTest.cpp" />
+    <ClCompile Include="..\..\tests\PipeTest.cpp" />
+    <ClCompile Include="..\..\tests\PixelRefTest.cpp" />
+    <ClCompile Include="..\..\tests\PointTest.cpp" />
+    <ClCompile Include="..\..\tests\PremulAlphaRoundTripTest.cpp" />
+    <ClCompile Include="..\..\tests\QuickRejectTest.cpp" />
+    <ClCompile Include="..\..\tests\RTConfRegistryTest.cpp" />
+    <ClCompile Include="..\..\tests\RTreeTest.cpp" />
+    <ClCompile Include="..\..\tests\RandomTest.cpp" />
+    <ClCompile Include="..\..\tests\ReadPixelsTest.cpp" />
+    <ClCompile Include="..\..\tests\ReadWriteAlphaTest.cpp" />
+    <ClCompile Include="..\..\tests\Reader32Test.cpp" />
+    <ClCompile Include="..\..\tests\RecordDrawTest.cpp" />
+    <ClCompile Include="..\..\tests\RecordOptsTest.cpp" />
+    <ClCompile Include="..\..\tests\RecordPatternTest.cpp" />
+    <ClCompile Include="..\..\tests\RecordReplaceDrawTest.cpp" />
+    <ClCompile Include="..\..\tests\RecordTest.cpp" />
+    <ClCompile Include="..\..\tests\RecorderTest.cpp" />
+    <ClCompile Include="..\..\tests\RecordingXfermodeTest.cpp" />
+    <ClCompile Include="..\..\tests\RectTest.cpp" />
+    <ClCompile Include="..\..\tests\RefCntTest.cpp" />
+    <ClCompile Include="..\..\tests\RefDictTest.cpp" />
+    <ClCompile Include="..\..\tests\RegionTest.cpp" />
+    <ClCompile Include="..\..\tests\ResourceCacheTest.cpp" />
+    <ClCompile Include="..\..\tests\RoundRectTest.cpp" />
+    <ClCompile Include="..\..\tests\RuntimeConfigTest.cpp" />
+    <ClCompile Include="..\..\tests\SHA1Test.cpp" />
+    <ClCompile Include="..\..\tests\SVGDeviceTest.cpp" />
+    <ClCompile Include="..\..\tests\ScalarTest.cpp" />
+    <ClCompile Include="..\..\tests\SerializationTest.cpp" />
+    <ClCompile Include="..\..\tests\ShaderImageFilterTest.cpp" />
+    <ClCompile Include="..\..\tests\ShaderOpacityTest.cpp" />
+    <ClCompile Include="..\..\tests\SizeTest.cpp" />
+    <ClCompile Include="..\..\tests\SkBase64Test.cpp" />
+    <ClCompile Include="..\..\tests\SkImageTest.cpp" />
+    <ClCompile Include="..\..\tests\SkNxTest.cpp" />
+    <ClCompile Include="..\..\tests\SkResourceCacheTest.cpp" />
+    <ClCompile Include="..\..\tests\SmallAllocatorTest.cpp" />
+    <ClCompile Include="..\..\tests\SortTest.cpp" />
+    <ClCompile Include="..\..\tests\SrcOverTest.cpp" />
+    <ClCompile Include="..\..\tests\StreamTest.cpp" />
+    <ClCompile Include="..\..\tests\StringTest.cpp" />
+    <ClCompile Include="..\..\tests\StrokeTest.cpp" />
+    <ClCompile Include="..\..\tests\StrokerTest.cpp" />
+    <ClCompile Include="..\..\tests\SurfaceTest.cpp" />
+    <ClCompile Include="..\..\tests\SwizzlerTest.cpp" />
+    <ClCompile Include="..\..\tests\TArrayTest.cpp" />
+    <ClCompile Include="..\..\tests\TDPQueueTest.cpp" />
+    <ClCompile Include="..\..\tests\TDStackNesterTest.cpp" />
+    <ClCompile Include="..\..\tests\TLSTest.cpp" />
+    <ClCompile Include="..\..\tests\TemplatesTest.cpp" />
+    <ClCompile Include="..\..\tests\TessellatingPathRendererTests.cpp" />
+    <ClCompile Include="..\..\tests\TextBlobTest.cpp" />
+    <ClCompile Include="..\..\tests\TextureCompressionTest.cpp" />
+    <ClCompile Include="..\..\tests\Time.cpp" />
+    <ClCompile Include="..\..\tests\ToUnicodeTest.cpp" />
+    <ClCompile Include="..\..\tests\TracingTest.cpp" />
+    <ClCompile Include="..\..\tests\TypefaceTest.cpp" />
+    <ClCompile Include="..\..\tests\UnicodeTest.cpp" />
+    <ClCompile Include="..\..\tests\UtilsTest.cpp" />
+    <ClCompile Include="..\..\tests\VarAllocTest.cpp" />
+    <ClCompile Include="..\..\tests\WArrayTest.cpp" />
+    <ClCompile Include="..\..\tests\WritePixelsTest.cpp" />
+    <ClCompile Include="..\..\tests\Writer32Test.cpp" />
+    <ClCompile Include="..\..\tests\XfermodeTest.cpp" />
+    <ClCompile Include="..\..\tests\YUVCacheTest.cpp" />
+    <ClCompile Include="..\..\gm\aaclip.cpp" />
+    <ClCompile Include="..\..\gm\aarectmodes.cpp" />
+    <ClCompile Include="..\..\gm\addarc.cpp" />
+    <ClCompile Include="..\..\gm\all_bitmap_configs.cpp" />
+    <ClCompile Include="..\..\gm\alphagradients.cpp" />
+    <ClCompile Include="..\..\gm\anisotropic.cpp" />
+    <ClCompile Include="..\..\gm\arcofzorro.cpp" />
+    <ClCompile Include="..\..\gm\arithmode.cpp" />
+    <ClCompile Include="..\..\gm\astcbitmap.cpp" />
+    <ClCompile Include="..\..\gm\badpaint.cpp" />
+    <ClCompile Include="..\..\gm\beziereffects.cpp" />
+    <ClCompile Include="..\..\gm\beziers.cpp" />
+    <ClCompile Include="..\..\gm\bigblurs.cpp" />
+    <ClCompile Include="..\..\gm\bigmatrix.cpp" />
+    <ClCompile Include="..\..\gm\bigtext.cpp" />
+    <ClCompile Include="..\..\gm\bitmapcopy.cpp" />
+    <ClCompile Include="..\..\gm\bitmapfilters.cpp" />
+    <ClCompile Include="..\..\gm\bitmappremul.cpp" />
+    <ClCompile Include="..\..\gm\bitmaprect.cpp" />
+    <ClCompile Include="..\..\gm\bitmaprecttest.cpp" />
+    <ClCompile Include="..\..\gm\bitmapshader.cpp" />
+    <ClCompile Include="..\..\gm\bitmapsource.cpp" />
+    <ClCompile Include="..\..\gm\bitmapsource2.cpp" />
+    <ClCompile Include="..\..\gm\bleed.cpp" />
+    <ClCompile Include="..\..\gm\blend.cpp" />
+    <ClCompile Include="..\..\gm\blurcircles.cpp" />
+    <ClCompile Include="..\..\gm\blurquickreject.cpp" />
+    <ClCompile Include="..\..\gm\blurrect.cpp" />
+    <ClCompile Include="..\..\gm\blurroundrect.cpp" />
+    <ClCompile Include="..\..\gm\blurs.cpp" />
+    <ClCompile Include="..\..\gm\bmpfilterqualityrepeat.cpp" />
+    <ClCompile Include="..\..\gm\cgm.c" />
+    <ClCompile Include="..\..\gm\cgms.cpp" />
+    <ClCompile Include="..\..\gm\circles.cpp" />
+    <ClCompile Include="..\..\gm\circularclips.cpp" />
+    <ClCompile Include="..\..\gm\clip_strokerect.cpp" />
+    <ClCompile Include="..\..\gm\clipdrawdraw.cpp" />
+    <ClCompile Include="..\..\gm\clippedbitmapshaders.cpp" />
+    <ClCompile Include="..\..\gm\cmykjpeg.cpp" />
+    <ClCompile Include="..\..\gm\colorcube.cpp" />
+    <ClCompile Include="..\..\gm\coloremoji.cpp" />
+    <ClCompile Include="..\..\gm\colorfilterimagefilter.cpp" />
+    <ClCompile Include="..\..\gm\colorfilters.cpp" />
+    <ClCompile Include="..\..\gm\colormatrix.cpp" />
+    <ClCompile Include="..\..\gm\colortype.cpp" />
+    <ClCompile Include="..\..\gm\colortypexfermode.cpp" />
+    <ClCompile Include="..\..\gm\colorwheel.cpp" />
+    <ClCompile Include="..\..\gm\complexclip.cpp" />
+    <ClCompile Include="..\..\gm\complexclip2.cpp" />
+    <ClCompile Include="..\..\gm\complexclip3.cpp" />
+    <ClCompile Include="..\..\gm\composeshader.cpp" />
+    <ClCompile Include="..\..\gm\concavepaths.cpp" />
+    <ClCompile Include="..\..\gm\conicpaths.cpp" />
+    <ClCompile Include="..\..\gm\constcolorprocessor.cpp" />
+    <ClCompile Include="..\..\gm\convex_all_line_paths.cpp" />
+    <ClCompile Include="..\..\gm\convexpaths.cpp" />
+    <ClCompile Include="..\..\gm\convexpolyclip.cpp" />
+    <ClCompile Include="..\..\gm\convexpolyeffect.cpp" />
+    <ClCompile Include="..\..\gm\copyTo4444.cpp" />
+    <ClCompile Include="..\..\gm\cubicpaths.cpp" />
+    <ClCompile Include="..\..\gm\dashcubics.cpp" />
+    <ClCompile Include="..\..\gm\dashing.cpp" />
+    <ClCompile Include="..\..\gm\dcshader.cpp" />
+    <ClCompile Include="..\..\gm\degeneratesegments.cpp" />
+    <ClCompile Include="..\..\gm\dftext.cpp" />
+    <ClCompile Include="..\..\gm\discard.cpp" />
+    <ClCompile Include="..\..\gm\displacement.cpp" />
+    <ClCompile Include="..\..\gm\distantclip.cpp" />
+    <ClCompile Include="..\..\gm\downsamplebitmap.cpp" />
+    <ClCompile Include="..\..\gm\drawbitmaprect.cpp" />
+    <ClCompile Include="..\..\gm\drawfilter.cpp" />
+    <ClCompile Include="..\..\gm\drawlooper.cpp" />
+    <ClCompile Include="..\..\gm\dropshadowimagefilter.cpp" />
+    <ClCompile Include="..\..\gm\drrect.cpp" />
+    <ClCompile Include="..\..\gm\dstreadshuffle.cpp" />
+    <ClCompile Include="..\..\gm\emboss.cpp" />
+    <ClCompile Include="..\..\gm\emptypath.cpp" />
+    <ClCompile Include="..\..\gm\etc1bitmap.cpp" />
+    <ClCompile Include="..\..\gm\extractbitmap.cpp" />
+    <ClCompile Include="..\..\gm\factory.cpp" />
+    <ClCompile Include="..\..\gm\fadefilter.cpp" />
+    <ClCompile Include="..\..\gm\fatpathfill.cpp" />
+    <ClCompile Include="..\..\gm\filltypes.cpp" />
+    <ClCompile Include="..\..\gm\filltypespersp.cpp" />
+    <ClCompile Include="..\..\gm\filterbitmap.cpp" />
+    <ClCompile Include="..\..\gm\filterfastbounds.cpp" />
+    <ClCompile Include="..\..\gm\filterindiabox.cpp" />
+    <ClCompile Include="..\..\gm\fontcache.cpp" />
+    <ClCompile Include="..\..\gm\fontmgr.cpp" />
+    <ClCompile Include="..\..\gm\fontscaler.cpp" />
+    <ClCompile Include="..\..\gm\fontscalerdistortable.cpp" />
+    <ClCompile Include="..\..\gm\gammatext.cpp" />
+    <ClCompile Include="..\..\gm\getpostextpath.cpp" />
+    <ClCompile Include="..\..\gm\giantbitmap.cpp" />
+    <ClCompile Include="..\..\gm\glyph_pos.cpp" />
+    <ClCompile Include="..\..\gm\glyph_pos_align.cpp" />
+    <ClCompile Include="..\..\gm\gradientDirtyLaundry.cpp" />
+    <ClCompile Include="..\..\gm\gradient_matrix.cpp" />
+    <ClCompile Include="..\..\gm\gradients.cpp" />
+    <ClCompile Include="..\..\gm\gradients_2pt_conical.cpp" />
+    <ClCompile Include="..\..\gm\gradients_no_texture.cpp" />
+    <ClCompile Include="..\..\gm\gradtext.cpp" />
+    <ClCompile Include="..\..\gm\grayscalejpg.cpp" />
+    <ClCompile Include="..\..\gm\hairlines.cpp" />
+    <ClCompile Include="..\..\gm\hairmodes.cpp" />
+    <ClCompile Include="..\..\gm\hittestpath.cpp" />
+    <ClCompile Include="..\..\gm\image.cpp" />
+    <ClCompile Include="..\..\gm\imagealphathreshold.cpp" />
+    <ClCompile Include="..\..\gm\imageblur.cpp" />
+    <ClCompile Include="..\..\gm\imageblur2.cpp" />
+    <ClCompile Include="..\..\gm\imageblurtiled.cpp" />
+    <ClCompile Include="..\..\gm\imagefilters.cpp" />
+    <ClCompile Include="..\..\gm\imagefiltersbase.cpp" />
+    <ClCompile Include="..\..\gm\imagefiltersclipped.cpp" />
+    <ClCompile Include="..\..\gm\imagefilterscropexpand.cpp" />
+    <ClCompile Include="..\..\gm\imagefilterscropped.cpp" />
+    <ClCompile Include="..\..\gm\imagefiltersgraph.cpp" />
+    <ClCompile Include="..\..\gm\imagefiltersscaled.cpp" />
+    <ClCompile Include="..\..\gm\imagefilterstransformed.cpp" />
+    <ClCompile Include="..\..\gm\imagemagnifier.cpp" />
+    <ClCompile Include="..\..\gm\imageresizetiled.cpp" />
+    <ClCompile Include="..\..\gm\internal_links.cpp" />
+    <ClCompile Include="..\..\gm\inversepaths.cpp" />
+    <ClCompile Include="..\..\gm\largeglyphblur.cpp" />
+    <ClCompile Include="..\..\gm\lcdtext.cpp" />
+    <ClCompile Include="..\..\gm\lerpmode.cpp" />
+    <ClCompile Include="..\..\gm\lighting.cpp" />
+    <ClCompile Include="..\..\gm\linepaths.cpp" />
+    <ClCompile Include="..\..\gm\lumafilter.cpp" />
+    <ClCompile Include="..\..\gm\matrixconvolution.cpp" />
+    <ClCompile Include="..\..\gm\matriximagefilter.cpp" />
+    <ClCompile Include="..\..\gm\megalooper.cpp" />
+    <ClCompile Include="..\..\gm\mipmap.cpp" />
+    <ClCompile Include="..\..\gm\mixedtextblobs.cpp" />
+    <ClCompile Include="..\..\gm\mixedxfermodes.cpp" />
+    <ClCompile Include="..\..\gm\modecolorfilters.cpp" />
+    <ClCompile Include="..\..\gm\morphology.cpp" />
+    <ClCompile Include="..\..\gm\multipicturedraw.cpp" />
+    <ClCompile Include="..\..\gm\nested.cpp" />
+    <ClCompile Include="..\..\gm\ninepatchstretch.cpp" />
+    <ClCompile Include="..\..\gm\nonclosedpaths.cpp" />
+    <ClCompile Include="..\..\gm\offsetimagefilter.cpp" />
+    <ClCompile Include="..\..\gm\ovals.cpp" />
+    <ClCompile Include="..\..\gm\patch.cpp" />
+    <ClCompile Include="..\..\gm\patchgrid.cpp" />
+    <ClCompile Include="..\..\gm\patheffects.cpp" />
+    <ClCompile Include="..\..\gm\pathfill.cpp" />
+    <ClCompile Include="..\..\gm\pathinterior.cpp" />
+    <ClCompile Include="..\..\gm\pathopsinverse.cpp" />
+    <ClCompile Include="..\..\gm\pathopsskpclip.cpp" />
+    <ClCompile Include="..\..\gm\pathreverse.cpp" />
+    <ClCompile Include="..\..\gm\peekpixels.cpp" />
+    <ClCompile Include="..\..\gm\perlinnoise.cpp" />
+    <ClCompile Include="..\..\gm\picture.cpp" />
+    <ClCompile Include="..\..\gm\pictureimagefilter.cpp" />
+    <ClCompile Include="..\..\gm\pictureshader.cpp" />
+    <ClCompile Include="..\..\gm\pictureshadertile.cpp" />
+    <ClCompile Include="..\..\gm\pixelsnap.cpp" />
+    <ClCompile Include="..\..\gm\plus.cpp" />
+    <ClCompile Include="..\..\gm\points.cpp" />
+    <ClCompile Include="..\..\gm\poly2poly.cpp" />
+    <ClCompile Include="..\..\gm\polygons.cpp" />
+    <ClCompile Include="..\..\gm\quadpaths.cpp" />
+    <ClCompile Include="..\..\gm\recordopts.cpp" />
+    <ClCompile Include="..\..\gm\rects.cpp" />
+    <ClCompile Include="..\..\gm\repeated_bitmap.cpp" />
+    <ClCompile Include="..\..\gm\resizeimagefilter.cpp" />
+    <ClCompile Include="..\..\gm\roundrects.cpp" />
+    <ClCompile Include="..\..\gm\rrect.cpp" />
+    <ClCompile Include="..\..\gm\rrects.cpp" />
+    <ClCompile Include="..\..\gm\samplerstress.cpp" />
+    <ClCompile Include="..\..\gm\selftest.cpp" />
+    <ClCompile Include="..\..\gm\shaderbounds.cpp" />
+    <ClCompile Include="..\..\gm\shadertext.cpp" />
+    <ClCompile Include="..\..\gm\shadertext2.cpp" />
+    <ClCompile Include="..\..\gm\shadertext3.cpp" />
+    <ClCompile Include="..\..\gm\shadows.cpp" />
+    <ClCompile Include="..\..\gm\shallowgradient.cpp" />
+    <ClCompile Include="..\..\gm\simpleaaclip.cpp" />
+    <ClCompile Include="..\..\gm\skbug1719.cpp" />
+    <ClCompile Include="..\..\gm\smallarc.cpp" />
+    <ClCompile Include="..\..\gm\smallimage.cpp" />
+    <ClCompile Include="..\..\gm\spritebitmap.cpp" />
+    <ClCompile Include="..\..\gm\srcmode.cpp" />
+    <ClCompile Include="..\..\gm\stlouisarch.cpp" />
+    <ClCompile Include="..\..\gm\stringart.cpp" />
+    <ClCompile Include="..\..\gm\strokefill.cpp" />
+    <ClCompile Include="..\..\gm\strokerect.cpp" />
+    <ClCompile Include="..\..\gm\strokerects.cpp" />
+    <ClCompile Include="..\..\gm\strokes.cpp" />
+    <ClCompile Include="..\..\gm\stroketext.cpp" />
+    <ClCompile Include="..\..\gm\surface.cpp" />
+    <ClCompile Include="..\..\gm\tablecolorfilter.cpp" />
+    <ClCompile Include="..\..\gm\tallstretchedbitmaps.cpp" />
+    <ClCompile Include="..\..\gm\testimagefilters.cpp" />
+    <ClCompile Include="..\..\gm\texdata.cpp" />
+    <ClCompile Include="..\..\gm\textblob.cpp" />
+    <ClCompile Include="..\..\gm\textblobcolortrans.cpp" />
+    <ClCompile Include="..\..\gm\textblobgeometrychange.cpp" />
+    <ClCompile Include="..\..\gm\textbloblooper.cpp" />
+    <ClCompile Include="..\..\gm\textblobshader.cpp" />
+    <ClCompile Include="..\..\gm\textblobtransforms.cpp" />
+    <ClCompile Include="..\..\gm\texteffects.cpp" />
+    <ClCompile Include="..\..\gm\texturedomaineffect.cpp" />
+    <ClCompile Include="..\..\gm\thinrects.cpp" />
+    <ClCompile Include="..\..\gm\thinstrokedrects.cpp" />
+    <ClCompile Include="..\..\gm\tiledscaledbitmap.cpp" />
+    <ClCompile Include="..\..\gm\tileimagefilter.cpp" />
+    <ClCompile Include="..\..\gm\tilemodes.cpp" />
+    <ClCompile Include="..\..\gm\tilemodes_scaled.cpp" />
+    <ClCompile Include="..\..\gm\tinybitmap.cpp" />
+    <ClCompile Include="..\..\gm\transparency.cpp" />
+    <ClCompile Include="..\..\gm\typeface.cpp" />
+    <ClCompile Include="..\..\gm\variedtext.cpp" />
+    <ClCompile Include="..\..\gm\vertices.cpp" />
+    <ClCompile Include="..\..\gm\verttext.cpp" />
+    <ClCompile Include="..\..\gm\verttext2.cpp" />
+    <ClCompile Include="..\..\gm\verylargebitmap.cpp" />
+    <ClCompile Include="..\..\gm\xfermodeimagefilter.cpp" />
+    <ClCompile Include="..\..\gm\xfermodes.cpp" />
+    <ClCompile Include="..\..\gm\xfermodes2.cpp" />
+    <ClCompile Include="..\..\gm\xfermodes3.cpp" />
+    <ClCompile Include="..\..\gm\yuvtorgbeffect.cpp" />
+    <ClCompile Include="..\..\tests\FontConfigParser.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\PathOpsAngleIdeas.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\PathOpsBattles.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\PathOpsCubicLineIntersectionIdeas.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\PathOpsDebug.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\PathOpsOpLoopThreadedTest.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\PathOpsSkpClipTest.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\SkpSkGrTest.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\tests\skia_test.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\system_preferences_default.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\gm\techtalk1.cpp">
+      <ExcludedFromBuild>true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+  <!--<Target Name="Build">
+    <Exec Command="call ninja.exe -C $(OutDir) $(ProjectName)"/>
+  </Target>
+  <Target Name="Clean">
+    <Exec Command="call ninja.exe -C $(OutDir) -tclean $(ProjectName)"/>
+  </Target>-->
+</Project>
